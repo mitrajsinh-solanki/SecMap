@@ -3,10 +3,9 @@
 </p>
 # SecMap
 
-> Custom CLI network security scanner powered by Nmap.
+> Custom CLI network security scanner.
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Nmap Engine](https://img.shields.io/badge/Engine-Nmap%207.00%2B-red.svg)](https://nmap.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Production%2FStable-success.svg)](pyproject.toml)
 
@@ -14,9 +13,9 @@
 
 ## Overview
 
-**SecMap** is a custom command-line network security scanner built on top of the industry-standard Nmap scanning engine. SecMap does not replace Nmap; instead, it uses Nmap for underlying network scanning, host discovery, port scanning, and Nmap Script Engine (NSE) script execution, while providing:
+**SecMap** is a custom command-line network security scanner that provides host discovery, port scanning, and script execution, while providing:
 
-- **Data Normalization**: Translates raw Nmap XML output into a standardized, backend-independent internal data model (`ScanReport`).
+- **Data Normalization**: Translates raw XML scan output into a standardized, backend-independent internal data model (`ScanReport`).
 - **Rich Terminal UI**: Renders styled terminal cards, panels, and tables using `rich`, with fallbacks to plain text.
 - **Multi-Format Exporting**: Supports clean exports to structured JSON and tabular CSV files.
 - **Scan Profile Management**: Pre-packages built-in profiles (`quick`, `service`, `web`, `full`) and loads custom user profiles from TOML configuration files.
@@ -28,7 +27,7 @@
 
 ## Key Features
 
-- **Nmap Engine Driver**: Seamless execution of low-level Nmap scans via safe subprocess controls without shell invocation risks.
+- **Scan Execution Driver**: Seamless execution of low-level network scans via safe subprocess controls without shell invocation risks.
 - **Rich UI & Multi-Format Exporters**: Interactive terminal reporting with colorized Rich tables, or exports to `--output json` and `--output csv`.
 - **Built-in & Custom TOML Profiles**: Launch tailored scans using `--profile` flags or define custom scan profiles in `~/.config/secmap/config.toml`.
 - **Persistent Scan History**: Automatically persist scan runs with `--save` and manage snapshots using `secmap history` (`list`, `show`, `latest`, `delete`).

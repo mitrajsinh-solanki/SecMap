@@ -436,6 +436,11 @@ This tool is designed for educational, administrative, and authorized security a
 
 ---
 
+## Contributors
+
+- Mitrajsinh Solanki — Developer
+- Kenil Chhodvadiya — Developer
+
 ## License
 
 SecMap is released under the [MIT License](LICENSE).

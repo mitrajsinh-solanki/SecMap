@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secmap"
+version = "1.0.0"
+description = "Custom CLI network security scanner"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "SecMap Development Team" }
+]
+keywords = ["security", "network", "scanner", "nmap", "cli"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Information Technology",
+    "Topic :: Security",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+secmap = "secmap:main"
+
+[tool.setuptools]
+py-modules = ["secmap"]
+
+[tool.setuptools.packages.find]
+where = ["."]

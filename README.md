@@ -436,6 +436,12 @@ This tool is designed for educational, administrative, and authorized security a
 
 ---
 
+## 👥 Contributors
+
+| Profile | Name | Role |
+| :---: | :---: | :---: |
+| <img src="https://github.com" width="50px;" alt="kenilchhodvadiya"/> | [Kenil Chhodvadiya](https://github.com) | Contributor |
+
 ## License
 
 SecMap is released under the [MIT License](LICENSE).

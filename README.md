@@ -440,7 +440,9 @@ This tool is designed for educational, administrative, and authorized security a
 
 | Profile | Name | Role |
 | :---: | :---: | :---: |
-| <img src="https://github.com" width="50px;" alt="kenilchhodvadiya"/> | [Kenil Chhodvadiya](https://github.com) | Contributor |
+| <img src="https://githubusercontent.com" width="50px;" alt="mitrajsinh-solanki"/> | [Mitrajsinh Solanki](https://github.com) |  Developer  |
+| <img src="https://githubusercontent.com" width="50px;" alt="kenilchhodvadiya"/> | [Kenil Chhodvadiya](https://github.com) | Developer |
+
 
 ## License
 
